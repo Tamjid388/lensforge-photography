@@ -1,4 +1,4 @@
-import { CirclePlay } from 'lucide-react'
+import { CirclePlay, X } from 'lucide-react'
 import React, { useState } from 'react'
 
 export const Banner = () => {
@@ -81,10 +81,10 @@ export const Banner = () => {
         <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
           <div className="bg-white rounded-lg max-w-3xl w-full p-4 relative">
             <button
-              className="absolute top-2 right-2 text-xl font-bold"
+              className="absolute top-2 right-2 text-2xl font-bold bg-orange-500 rounded-3xl p-1"
               onClick={() => setShowVideo(false)}
             >
-              ×
+             <X />
             </button>
             <div className="w-full md:h-[500px]">
               <iframe
