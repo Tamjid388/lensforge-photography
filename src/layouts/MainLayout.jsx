@@ -12,7 +12,9 @@ export const MainLayout = () => {
       <div >
         <Outlet />
       </div>
-      <Footer />
+     <div className="bg-black text-white">
+       <Footer />
+     </div>
     </div>
   );
 };

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering Low Light Photography",
+    "author": "Tamjid Ahmed",
+    "date": "2025-06-15",
+    "image": "https://images.unsplash.com/photo-1590991753662-ea74e17c327e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RGlzY292ZXIlMjBlc3NlbnRpYWwlMjB0ZWNobmlxdWVzJTIwYW5kJTIwc2V0dGluZ3MlMjB0byUyMHNob290JTIwc3R1bm5pbmclMjBwaG90b3MlMjBpbiUyMGxvdyUyMGxpZ2h0JTIwY29uZGl0aW9uc3xlbnwwfHwwfHx8Mg%3D%3D",
+    "summary": "Discover essential techniques and settings to shoot stunning photos in low light conditions.",
+    "category": "Photography Tips",
+    "tags": ["low light", "night", "ISO", "tripod"],
+    "content": "Low light photography requires a good balance between ISO, aperture, and shutter speed. In this guide, we'll explore how to minimize noise, use tripods, and choose the right lens..."
+  },
+  {
+    "id": 2,
+    "title": "Top 5 Lenses for Portrait Photography in 2025",
+    "author": "LensForge Team",
+    "date": "2025-06-10",
+    "image": "https://images.unsplash.com/photo-1630165311885-f732bd2826fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UG9ydHJhaXQlMjBQaG90b2dyYXBoeSUyMGxlbnN8ZW58MHx8MHx8fDI%3D",
+    "summary": "Looking for the perfect lens for portraits? Here are our top 5 picks with pros and cons.",
+    "category": "Gear Reviews",
+    "tags": ["portrait", "lenses", "gear", "2025"],
+    "content": "Portrait photography thrives on sharpness and bokeh. We'll compare lenses based on aperture, focus speed, and clarity..."
+  },
+  {
+    "id": 3,
+    "title": "The Evolution of Camera Technology",
+    "author": "Tamjid Ahmed",
+    "date": "2025-06-01",
+    "image": "https://images.unsplash.com/photo-1660904017666-275b1279f20b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGhlJTIwRXZvbHV0aW9uJTIwb2YlMjBDYW1lcmElMjBUZWNobm9sb2d5fGVufDB8fDB8fHwy",
+    "summary": "From film to mirrorless, explore how camera technology has transformed over the decades.",
+    "category": "Industry Insights",
+    "tags": ["history", "mirrorless", "film"],
+    "content": "Cameras have evolved from bulky machines to compact digital powerhouses. Learn about key milestones and innovations..."
+  },
+  {
+    "id": 4,
+    "title": "10 Composition Techniques Every Photographer Should Know",
+    "author": "Razia Sultana",
+    "date": "2025-05-25",
+    "image": "https://images.unsplash.com/photo-1699401984773-f6bf9a20b774?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q29tcG9zaXRpb24lMjBUZWNobmlxdWVzJTIwRXZlcnklMjBQaG90b2dyYXBoZXJ8ZW58MHx8MHx8fDI%3D",
+    "summary": "Learn the fundamental rules of composition like the rule of thirds, leading lines, and negative space.",
+    "category": "Tutorials",
+    "tags": ["composition",  "leading lines", "framing"],
+    "content": "Composition is what makes a photo visually appealing. In this blog, we break down the 10 most effective techniques to enhance your storytelling through images..."
+  },
+  {
+    "id": 5,
+    "title": "Behind the Scenes: Wildlife Photography in the Jungle",
+    "author": "Farid Hossain",
+    "date": "2025-05-10",
+    "image": "https://images.unsplash.com/photo-1610714076215-593489f94ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFdpbGRsaWZlJTIwUGhvdG9ncmFwaHklMjBpbiUyMHRoZSUyMEp1bmdsZXxlbnwwfHwwfHx8Mg%3D%3D",
+    "summary": "Go behind the lens with our team as we document wildlife deep in the Sundarbans.",
+    "category": "Stories",
+    "tags": ["wildlife", "jungle", "nature"],
+    "content": "Wildlife photography is thrilling but challenging. From staying silent to capturing the right moment, here's what goes on behind the scenes in the wild..."
+  },
+  {
+    "id": 6,
+    "title": "Why Mirrorless Cameras Are Taking Over",
+    "author": "Tamjid Ahmed",
+    "date": "2025-04-28",
+    "image": "https://images.unsplash.com/photo-1657731739265-4bf039138bf4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fE1pcnJvcmxlc3MlMjBjYW1lcmFzfGVufDB8fDB8fHwy",
+    "summary": "We break down the pros and cons of mirrorless systems and why they are replacing DSLRs.",
+    "category": "Gear Reviews",
+    "tags": ["mirrorless", "dslr",  "future"],
+    "content": "Mirrorless cameras are dominating the market for good reasons — smaller size, live EVF previews, and better autofocus. Here's everything you need to know before switching..."
+  }
+]
