@@ -60,7 +60,7 @@ export const About = () => {
         </div>
         <div className="bg-linear-to-r from-orange-400 to-orange-600 p-12 rounded-2xl">
             <img
-            className='rounded-2xl'
+            className='rounded-2xl transform transition duration-300 hover:scale-105'
             src="https://images.unsplash.com/photo-1500634245200-e5245c7574ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGNhbWVyYXxlbnwwfHwwfHx8Mg%3D%3D"
              alt="camera" />
         </div>

@@ -54,7 +54,7 @@ Camera just for you</h1>
 {/* Right div */}
   <div className='md:w-1/2 flex justify-end'>
     <img
-    className='rounded-2xl'
+    className='rounded-2xl transform transition duration-300 hover:scale-105'
     src="https://images.unsplash.com/photo-1561930133-3e34c4e51e82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGFzc2VsYmxhZCUyMGxlbnN8ZW58MHx8MHx8fDI%3D" alt="" />
   </div>
 

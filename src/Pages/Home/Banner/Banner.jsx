@@ -1,7 +1,11 @@
 import { CirclePlay } from 'lucide-react'
-import React from 'react'
+import React, { useState } from 'react'
 
 export const Banner = () => {
+  const [showVideo, setShowVideo] = useState(false);
+  const handlePlay=()=>{
+    setShowVideo(true)
+  }
     const data=[
         {
             resoulution:"16MP",
@@ -17,6 +21,7 @@ export const Banner = () => {
         },
     ]
   return (
+     <>
            <div className=' max-w-7xl mx-auto flex flex-col-reverse md:flex-row
             justify-between items-center md:py-18 py-6 ' >
         <div className="md:w-1/2 space-y-6 ">
@@ -35,7 +40,7 @@ export const Banner = () => {
     {data.map((item, index) => (
       <div
         key={index}
-        className='bg-white border shadow px-4 py-3 rounded-lg text-center w-24'
+        className='bg-white/80 border shadow px-4 py-3 rounded-lg text-center w-24'
       >
         <p className='text-xl font-bold text-gray-800'>{item.resoulution}</p>
         <p className='text-sm text-gray-500'>{item.text}</p>
@@ -50,14 +55,14 @@ export const Banner = () => {
             <div className='flex items-center gap-4'>
                
                 <button 
-                className='btn text-white  btn-lg
+                className='btn text-white  btn-lg transform transition duration-300 hover:scale-105
                 bg-linear-to-r from-orange-400 to-orange-600 border-0'>Shop Now
 
                     
                 </button>
-                <span className=''>
+                <button onClick={handlePlay} className='transform transition duration-300 hover:scale-105'>
                     <CirclePlay  size={50} className='text-white'/>
-                </span>
+                </button>
 
 
             </div>
@@ -70,5 +75,30 @@ export const Banner = () => {
              alt="camera" />
         </div>
     </div>
+
+        {/* Modal */}
+      {showVideo && (
+        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
+          <div className="bg-white rounded-lg max-w-3xl w-full p-4 relative">
+            <button
+              className="absolute top-2 right-2 text-xl font-bold"
+              onClick={() => setShowVideo(false)}
+            >
+              ×
+            </button>
+            <div className="w-full md:h-[500px]">
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/6TkNBH3be3s"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      )}
+     </>
   )
 }
