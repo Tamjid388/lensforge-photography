@@ -16,7 +16,7 @@ export const Product = () => {
   }, []);
   
   return (
-    <div className='max-w-7xl m-auto  py-12'>
+    <div className='max-w-7xl m-auto  py-6 md:py-16 px-2'>
         <h1 className='text-center font-bold text-4xl pt-6 mb-8'>Our Product</h1>
         <div className='grid grid-cols-1  md:grid-cols-3 gap-6'>
            { products.map(product=><div

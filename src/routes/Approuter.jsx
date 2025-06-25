@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router';
 import { MainLayout } from '../layouts/MainLayout';
 import { Home } from '../Pages/Home/Home';
 import { Blog } from '../Pages/Blog/Blog';
+import { Contact } from '../Pages/Contact/Contact';
 
  const Approuter = createBrowserRouter([
   {
@@ -16,7 +17,12 @@ import { Blog } from '../Pages/Blog/Blog';
         {
             path:'/blog',
             element:<Blog/>
-        }
+        },
+        {
+            path:'/contact',
+            element:<Contact/>
+        },
+
     ]
   },
 ]);

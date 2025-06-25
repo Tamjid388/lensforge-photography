@@ -3,8 +3,8 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div className='max-w-7xl mx-auto flex flex-row justify-between items-center py-12' >
-        <div className="w-1/2 space-y-6">
+    <div className='px-2 max-w-7xl mx-auto flex flex-col-reverse md:flex-row justify-between items-center py-12 gap-4' >
+        <div className="md:w-1/2 space-y-6">
 
             <div>
                 <p className='text-orange-500 font-semibold'>About Our Mission</p>
@@ -20,7 +20,7 @@ export const About = () => {
             </p>
 
            {/* cards */}
-<div className="flex space-x-4">
+<div className="flex flex-col md:flex-row space-x-4 gap-4">
   {/* Card 1 */}
   <div className="flex flex-col items-center bg-white shadow-lg p-4 rounded-md w-64">
     <div className="mb-2">
@@ -49,7 +49,8 @@ export const About = () => {
 </div>
 
             <div>
-                <button className='btn text-white bg-linear-to-r from-orange-400 to-orange-600'>Learn More
+                <button className='btn
+                 text-white bg-linear-to-r from-orange-400 to-orange-600'>Learn More
 
                     <span>
                         <MoveRight />
