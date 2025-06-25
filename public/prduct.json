@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "category": "Videoing Lens",
+    "name": "Samyang 14mm",
+    "type": "Film Lens",
+    "price": 1299
+  },
+  {
+    "id": 2,
+    "category": "Film Lens",
+    "name": "Canon RF 24-70mm",
+    "type": "Pro Equipment",
+    "price": 2499
+  },
+  {
+    "id": 3,
+    "category": "Pro Equipment",
+    "name": "Complete Kit",
+    "type": "Pro Equipment",
+    "price": null
+  }
+]
